@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Contato</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Página Inicial</a> |
+        
+                <a href="disciplinas.html">Disciplinas oferecidas</a> |
+
+                <a href="formularios.html">Contato</a>
+            </nav>
+            <hr>
+        <h1>Dados para Contato</h1>
+        <div>
+            <form>
+                <label for="user-name">Nome Completo:</label><br>
+                <input type="text" name="name" id="user-name">
+
+                <br>
+
+                <label for="user-email">Email:</label><br>
+                <input type="text" name="email" id="user-email">
+
+                <br>
+        
+                <label for="se-disciplina">Escolha sua disciplina de preferência:</label><br>
+                <select name="disciplina" id="se-disciplina">
+                    <option>Desenvolvimento Web</option>
+                    <option>Programação Orientada a Objetos</option>
+                </select>
+
+                <br>
+        
+                <fieldset>
+                    <legend>Selecione as linguagens que você conhece:</legend>
+                    <input type="checkbox" name="linguagem" id="cb-python" value="Python" checked> <label for="cb-python">Python</label><br>
+                    <input type="checkbox" name="linguagem" id="cb-javascript" value="Javascript"> <label for="cb-javascript">JavaScript</label><br>
+                    <input type="checkbox" name="linguagem" id="cb-java" value="Java"> <label for="cb-java">Java</label><br>
+                    <input type="checkbox" name="linguagem" id="cb-c#" value="C#"> <label for="cb-c#">C#</label><br>
+                    <input type="checkbox" name="linguagem" id="cb-ruby" value="Ruby"> <label for="cb-ruby">Ruby</label><br>
+                    <input type="checkbox" name="linguagem" id="cb-php" value="PHP"> <label for="cb-php">PHP</label>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Onde você conheceu o Cursinho Web:</legend>
+                    <input type="radio" name="amigos" id="ra-amigos" value="amigos"> <label for="ra-amigos">Amigos</label><br>
+                    <input type="radio" name="google" id="ra-google" value="google" checked> <label for="ra-google">Google</label><br>
+                    <input type="radio" name="youtube" id="ra-youtube" value="youtube"> <label for="ra-youtube">Youtube</label>
+                </fieldset>
+                <br>
+        
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </div>
+        <hr>
+        <footer>
+            <p>Cursinho Web &#169 - Todos os direitos reservados.
+                <br>
+            Contato:
+             <a id="link-email" href="gustavo.lopes7804@gmail.com">gustavo.lopes7804@gmail.com</a>
+            </p>
+        </footer>
+    </body>
+</html>

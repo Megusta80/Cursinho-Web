@@ -1,0 +1,104 @@
+body{
+    background-color: #eeeeee ;
+    color: #6f6f6f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a:link{
+    color: #6f6f6f;
+}
+
+a:visited{
+    color: #6f6f6f;;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+h1{
+    background-color: rgb(235, 144, 42);
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+
+
+h2, h3{
+    font-family: monospace;
+}
+
+.titulo-article{
+    color: rgb(17, 17, 153);
+}
+
+h3{
+    color: rgb(199, 100, 2);
+    font-size: 20px;
+}
+
+#html-lista{
+    color:rgb(255, 109, 11);
+
+}
+
+#css-lista{
+    color:rgb(27, 125, 253)
+}
+
+#js-lista{
+    color: rgb(163, 130, 22);
+}
+
+#py-lista{
+    color: rgb(15, 170, 92);
+}
+
+#html, #py{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    
+}
+
+#css{
+    width: 90px;
+    height: 90px;
+}
+
+ #html, #css, #js, #py{
+    margin-right: 20px;
+ }
+
+header, footer{
+    background-color: white
+}
+
+a#link-email:link, a#link-email:visited{
+    color:blue;
+    text-decoration: none;
+}
+
+a#link-email:hover{
+    color:#ff4020;
+    text-decoration: underline;
+}
+ul{
+    font-style: italic;
+}
+
+div{
+    background-color:#ffefd2;
+}
